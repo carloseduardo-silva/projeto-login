@@ -12,7 +12,10 @@
 }
 
 body{
-    background-color: rgb(83, 152, 175);
+    background-image:linear-gradient(  rgb(47, 77, 87),  rgb(73, 134, 155), 
+    rgb(106, 194, 223),  rgb(186, 238, 255)); 
+    background-repeat: no-repeat;
+    height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -131,4 +134,23 @@ div#form input#senhabtn{
         margin-bottom: -1px;
     }   
   
+}
+@media (min-width: 992px) {
+    section#login {
+        flex-direction: row-reverse;
+        width: 930px;
+       
+        
+    }
+
+    div#imagem{
+        border-radius: 0px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        height: 350px;
+        width: 650px;
+    }
+    div#form p {
+        margin-bottom: 1.4em;
+    }
 }
